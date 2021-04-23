@@ -1,0 +1,190 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "赏      瓷",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/admire/comments",
+			"style": {
+				"navigationBarTitleText": "分      享",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/create/create",
+			"style": {
+				"navigationBarTitleText": "造      瓷",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我      的",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/admire/admire",
+			"style": {
+				"navigationBarTitleText": "详情1",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mall",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "components/index/tea1",
+			"style": {
+				"navigationBarTitleText": "cha1",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/tea2",
+			"style": {
+				"navigationBarTitleText": "cha2",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/plate1",
+			"style": {
+				"navigationBarTitleText": "plate1",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/plate2",
+			"style": {
+				"navigationBarTitleText": "plate2",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/pen1",
+			"style": {
+				"navigationBarTitleText": "pen1",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/pen2",
+			"style": {
+				"navigationBarTitleText": "pen2",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/bottle1",
+			"style": {
+				"navigationBarTitleText": "bottle1",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "components/index/bottle2",
+			"style": {
+				"navigationBarTitleText": "bottle2",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "zoom-in"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "components/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天界面",
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+			"path": "components/share/share",
+			"style": {
+				"navigationBarTitleText": "分享界面",
+				"app-plus": {"titleNView": false}
+			}
+		}
+	],
+	
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#218345",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icon/unadmire.png",
+	        "selectedIconPath": "static/icon/admire.png",
+	        "text": "赏瓷"
+	    }, {
+	       "pagePath": "pages/admire/comments",
+	       "iconPath": "static/icon/share.png",
+	       "selectedIconPath": "static/icon/unshare.png",
+	       "text": "分享"
+	    },{
+			"pagePath": "pages/create/create",
+			"iconPath": "static/icon/unzaoci.png",
+			"selectedIconPath": "static/icon/zaoci.png",
+			"text": "造瓷"
+		},{
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/icon/unmine.png",
+			"selectedIconPath": "static/icon/mine.png",
+			"text": "我的"
+		}
+		
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#397a62",
+		"backgroundColor": "#F8F8F8"
+	}
+}
